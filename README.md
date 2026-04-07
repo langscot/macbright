@@ -18,10 +18,14 @@ The result on an XDR MacBook is a noticeable, comfortable brightness bump on top
 
 Grab the latest `MacBright.zip` from the [Releases page](https://github.com/langscot/macbright/releases), unzip it, and drag `MacBright.app` into `/Applications`.
 
-On first launch, macOS will block the app with a Gatekeeper warning. To open it:
+On first launch, macOS will block the app with a Gatekeeper warning ("MacBright Not Opened" with only **Done** / **Move to Bin** buttons). On macOS 15 Sequoia and later there's no right-click bypass — you have to allow it from System Settings:
 
-1. **Right-click** (or Control-click) `MacBright.app` in Finder → **Open**.
-2. In the dialog that appears, click **Open** again.
+1. Try to open `MacBright.app` once (double-click it). You'll get the blocked dialog. Click **Done**.
+2. Open **System Settings** → **Privacy & Security**.
+3. Scroll down to the **Security** section. You'll see a line: *"MacBright was blocked to protect your Mac."*
+4. Click **Open Anyway** next to it.
+5. Authenticate with your password / Touch ID.
+6. macOS will show one final confirmation dialog — click **Open Anyway** again.
 
 You only need to do this once. After that, double-clicking works normally.
 
