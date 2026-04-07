@@ -46,6 +46,10 @@ Requires macOS 13+ and Xcode command line tools (for `swift build`).
 
 Drag `MacBright.app` into System Settings → General → Login Items.
 
+### Updates
+
+MacBright has no auto-update mechanism. Watch this repo (or check the [Releases page](https://github.com/langscot/macbright/releases)) if you want to know when a new version ships.
+
 ## Usage
 
 MacBright lives in the menu bar — click the sun icon for the menu:
