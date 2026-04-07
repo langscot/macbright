@@ -1,5 +1,10 @@
 # MacBright
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-macOS%2013%2B-lightgrey.svg)](#compatibility)
+[![Swift](https://img.shields.io/badge/swift-5.9%2B-orange.svg)](https://swift.org)
+[![Release](https://img.shields.io/github/v/release/langscot/macbright?include_prereleases&sort=semver)](https://github.com/langscot/macbright/releases)
+
 A tiny menu bar app that boosts your MacBook Pro's display brightness past Apple's normal SDR cap, using the same EDR headroom that HDR content gets.
 
 I wanted a free, minimal version of this that I could read every line of source for. So I made my own.
